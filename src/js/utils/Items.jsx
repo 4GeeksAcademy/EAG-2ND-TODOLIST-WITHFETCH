@@ -1,5 +1,5 @@
 import React from 'react';
-import './ItemDisplay.css';c
+import './ItemDisplay.css';
 
 export const Items = ({ index, task, handleDelete }) => {
     return (
