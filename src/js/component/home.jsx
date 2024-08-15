@@ -111,10 +111,7 @@ const Home = () => {
                 },
             });
         });
-
-        await Promise.all(deleteTaskPromises);
         setTasks([]);
-        console.log("All tasks deleted");
     };
 
     useEffect(() => {
